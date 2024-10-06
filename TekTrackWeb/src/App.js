@@ -2,13 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { PAGES } from './constants/constants';
-import Footer from './components/Footer.jsx';
 
 
 const App = () => {
   return (
     <Router >
-      <PAGES.Navbar />
       <Routes>
         <Route path="/" element={<PAGES.HomePage />} />  
         <Route path="/jobs" element={<PAGES.JobPage />} />
@@ -17,7 +15,6 @@ const App = () => {
         <Route path="/faq" element={<PAGES.FaqPage />} />
         <Route path="/blog" element={<PAGES.BlogPage />} />
       </Routes>
-      {/* <Footer /> */}
     </Router>
   );
 };
