@@ -1,0 +1,7 @@
+#SERVICE
+
+-Contains business logic and application rules
+
+-Serve as layer between controllers ans repositories, allowing separation of concerns
+
+-Handle complex operations that may involve multiple models or repositories

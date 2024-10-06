@@ -1,0 +1,24 @@
+/* TekTrackWeb/src/components/Navbar.css */
+.vertical-navbar {
+    width: 200px; /* Adjust width as needed */
+    position: fixed; /* Fix to the left side */
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f8f9fa; /* Background color */
+    padding: 20px;
+  }
+  
+  .vertical-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vertical-navbar li {
+    margin: 10px 0;
+  }
+  
+  .vertical-navbar a {
+    text-decoration: none;
+    color: #333; /* Link color */
+  }

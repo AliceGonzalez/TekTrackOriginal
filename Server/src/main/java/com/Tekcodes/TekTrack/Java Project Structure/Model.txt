@@ -1,0 +1,7 @@
+#MODEL
+
+-Represents data and business logic of teh application
+
+-Define data structure (entities, attributes) and often include data manipulation
+
+-Interacts with database to perform CRUD operations (Create, Read, update, Delete)

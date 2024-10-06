@@ -1,0 +1,7 @@
+#CONTROLLER
+
+-Communicates between models and views
+
+-Handle incoming request, process user input and return responses
+
+-Invoke model methods to retrieve or manipulate data and determine which view to render.

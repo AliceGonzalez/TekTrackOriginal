@@ -1,0 +1,13 @@
+To create components in React that can later be adapted for React Native, follow these guidelines:
+Use Functional Components: Stick to functional components as they are easier to adapt.
+Avoid Web-Specific HTML Elements: Use React Native components like View, Text, and Image instead of HTML elements like div, h1, or img.
+Style with Flexbox: Use inline styles or StyleSheet from React Native for styling.
+Here’s an example of a simple component:
+
+
+
+Key Points:
+Use View instead of div.
+Use Text for text content.
+Use StyleSheet for styling.
+Keep the logic and structure similar to React for easier adaptation.

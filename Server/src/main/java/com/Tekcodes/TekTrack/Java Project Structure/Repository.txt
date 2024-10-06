@@ -1,0 +1,7 @@
+#REPOSITORY
+
+-Abstract data access logic and provide an interface for interacting with teh data source database
+
+-Encapsulates logic required to access data (makes it easier to manage and test)
+
+-Often use ORM (Object-Oriented Mapping) frameworks to simplify DB interactions
